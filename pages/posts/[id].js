@@ -16,6 +16,7 @@ export default function Post({ postData }) {
 				<h1 className={utilsStyle.headingXl}>{postData.title}</h1>
 				<div className={utilsStyle.lightText}>
 					<Date dateString={postData.date}></Date>
+					Author: COGD.THIEN
 				</div>
 				<div
 					dangerouslySetInnerHTML={{
